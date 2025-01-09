@@ -1,19 +1,13 @@
-# Nuxt 
-
-[Nuxt documentation](https://nuxt.com/docs/getting-started/introduction).
-
-## Setup
-
-dependencies:
+# Nuxt
 
 ```bash
-# npm
-npm install
+trying nuxt with no have vue experience(learn from scratch)
+-layout
+-component
+-ui
 ```
 
-## Development Server
-
-`http://localhost:3000`:
+[Nuxt documentation](https://nuxt.com/docs/getting-started/introduction).
 
 ```bash
 # npm
