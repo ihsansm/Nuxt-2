@@ -1,9 +1,12 @@
 <template>
+    <div class=" bg-blue-500 text-white">
+    Hello, Tailwind CSS!
+  </div>
     <div class="default-layout">
         <header>
             <nav>
-                <NuxtLink to="/home">Home</NuxtLink>
-                <NuxtLink to="/about">About</NuxtLink>
+                <NuxtLink to="/HomeDashboard" >Home</NuxtLink>
+                <NuxtLink to="/AboutDashboard">About</NuxtLink>
             </nav>
         </header>
         
