@@ -10,12 +10,9 @@
 </template>
 
 <script setup>
-definePageMeta({
-    layout: false
-})
 
 function enableLayout(params) {
-    setPageLayout('blog')
+    setPageLayout('blog') 
 }
 
 function resetLayout(params) {
