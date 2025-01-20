@@ -1,6 +1,19 @@
+<script setup lang="ts">
+import NoteCard from '~/components/NoteCard.vue';
+
+</script>
+
 <template>
-    <div>
-        <h1>Halaman utama</h1>
-        <p>default layout</p>
+    <h1>Notes</h1>
+    <div class="flex">
+        <NoteCard />
+        <NoteCard />
     </div>
 </template>
+
+<style>
+.flex{
+    display: flex;
+}
+
+</style>

@@ -13,3 +13,7 @@
 <script setup>
 const { count, increment, decrement } = useCounter()
 </script>
+
+<style>
+
+</style>

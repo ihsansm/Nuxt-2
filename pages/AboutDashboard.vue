@@ -21,8 +21,5 @@ function resetLayout(params) {
 </script>
 
 <style>
-.about-body {
-    background: #f0f0f0;
-    padding: 20px;
-}
+
 </style>
