@@ -1,10 +1,9 @@
 <template>
     <div class="default-layout">
         <header>
-            <nav>
-                <NuxtLink to="/home">Home</NuxtLink>
-                <NuxtLink to="/about">About</NuxtLink>
-            </nav>
+            <div>
+                <LayoutNavbar />
+            </div>
         </header>
         
         <main>
@@ -12,7 +11,7 @@
         </main>
 
         <footer>
-            <p>Footer content</p>
+            <LayoutFooter />
         </footer>
     </div>
 </template>
