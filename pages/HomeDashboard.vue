@@ -4,7 +4,7 @@
         <button @click="">Blog Layout</button>
         <button>Reset Layout</button>
 
-        <p>counter: {{ count }}</p>
+        <p>Angka: {{ count }}</p>
         <button @click="increment">Tambah</button>
         <button @click="decrement">Kurang</button>
     </div>
