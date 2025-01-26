@@ -15,5 +15,11 @@ const { count, increment, decrement } = useCounter()
 </script>
 
 <style>
-
+.home-dashboard{
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto;
+    color: white;
+    text-decoration: none;
+}
 </style>

@@ -1,19 +1,40 @@
-<script setup lang="ts">
-import NoteCard from '~/components/NoteCard.vue';
-
-</script>
 
 <template>
-    <h1>Notes</h1>
-    <div class="flex">
-        <NoteCard />
-        <NoteCard />
+    <div class="main-content">
+        
+
+        <h1>Notes</h1>
+    <br>
+        <NotesNewNote/>
+    <br>
+    <br>
+    
+    <NotesNoteCard/>
+    
     </div>
 </template>
 
+<script setup>
+    definePageMeta({
+        layout: 'default',
+    })
+    
+    const noteCard=resolveComponent('NotesNoteCard')
+    const newNote=resolveComponent('NotesNewNote')
+    
+    const boolean=ref(false)
+</script>
+
 <style>
-.flex{
-    display: flex;
+
+.main-content{
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
 }
+
 
 </style>

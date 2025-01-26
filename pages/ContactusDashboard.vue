@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="contactUs">
         <h1>ini Contact Us</h1>
         <button @click="telpon">TELP</button>
         <p v-if="showPhone">{{ phone }}</p>
@@ -23,5 +23,11 @@ export default {
 </script>
 
 <style>
-
+.contactUs{
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto;
+    color: white;
+    text-decoration: none;
+}
 </style>
