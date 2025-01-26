@@ -1,17 +1,28 @@
 <template>
     <div class="default-layout">
-        <header>
+        <header class="header-content">
             <div>
                 <LayoutNavbar />
             </div>
         </header>
         
-        <main>
+        <main class="main-content">
             <slot />
         </main>
 
-        <footer>
+        <footer class="footer-content">
             <LayoutFooter />
         </footer>
     </div>
 </template>
+
+<style>
+.header-content{
+    margin-bottom: 10rem;
+}
+
+.main-content{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+</style>
