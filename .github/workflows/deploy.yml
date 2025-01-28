@@ -3,7 +3,7 @@ name: Deploy Nuxt App
 on:
   push:
     branches:
-      - main  # Ganti dengan branch yang Anda inginkan
+      - main 
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '22.11.0.'  # Ganti dengan versi Node.js yang Anda gunakan
+        node-version: '22.11.0.'
 
     - name: Install dependencies
       run: npm install
@@ -28,4 +28,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist  # Ganti dengan direktori output build Anda
+        publish_branch: gh-pages
+        publish_dir: ./dist
