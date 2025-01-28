@@ -1,7 +1,7 @@
 <template>
     <div class="navbar">
         <div class="nav-content">
-            <nav>
+            <nav class="nav-links"> 
                 <NuxtLink to="/HomeDashboard" class="nav-link" >Home</NuxtLink>
                 <NuxtLink to="/AboutDashboard" class="nav-link">About</NuxtLink>
                 <NuxtLink to="/ContactusDashboard" class="nav-link">Contact us</NuxtLink>

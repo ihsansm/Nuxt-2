@@ -1,5 +1,6 @@
 <template>
     <div class="card">
+        <img src="/assets/NinjaSS.jpg" alt="" class="card-image">
         <h1>Title</h1>
         <p>description</p>
     </div>
@@ -7,9 +8,15 @@
 
 <style>
 .card {
-    max-width: 30%;
+    max-width: 50%;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 8px;
+}
+
+.card-image {
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
 }
 
 .card h1 {
