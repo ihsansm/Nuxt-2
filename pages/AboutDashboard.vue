@@ -14,6 +14,9 @@
 function enableLayout(params) {
     setPageLayout('blog') 
 }
+definePageMeta({
+        layout: 'default',
+    })
 
 function resetLayout(params) {
     setPageLayout('default')
@@ -21,5 +24,4 @@ function resetLayout(params) {
 </script>
 
 <style>
-
 </style>

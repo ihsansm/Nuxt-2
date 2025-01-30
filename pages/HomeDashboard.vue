@@ -17,6 +17,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+        layout: 'default',
+    })
 const { count, increment, decrement } = useCounter()
 </script>
 
