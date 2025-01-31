@@ -1,1 +1,1 @@
-# Nu practice making routing, pure css layout style, crud, simple landing page
+# practice making routing, pure css layout style, crud, simple landing page
