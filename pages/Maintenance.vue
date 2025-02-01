@@ -8,9 +8,16 @@
         <NotesNewNote/>
     <br>
     <br>
+
     
     <NotesNoteCard/>
-    
+    <br>
+    <br>
+    <NotesNoteCard/>
+    <br>
+    <br>
+    <NotesCounterCard/>    
+
     </div>
 </template>
 
@@ -18,6 +25,8 @@
     definePageMeta({
         layout: 'default',
     })
+
+    const { count, increment, decrement } = useCounter()
     
     const noteCard=resolveComponent('NotesNoteCard')
     const newNote=resolveComponent('NotesNewNote')
